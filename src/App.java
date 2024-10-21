@@ -1,13 +1,18 @@
 public class App {
     public static void main(String[] args) throws Exception {
        
-        int ika = 15;
+        int ika = 22;
 
              if (ika > 39 && ika < 51 ) {
 
              System.out.println("Parasta keski-ikää.");
                 
             }
+            if (ika > 20 && ika < 25 ) {
+
+                System.out.println("Olet parhaassa iässä.");
+                   
+               }            
 
             else if (ika == 65 ) {
 
