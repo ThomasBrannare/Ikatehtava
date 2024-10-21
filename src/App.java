@@ -25,7 +25,7 @@ public class App {
                 System.out.println("onnea");
                 System.out.println("onnea");
             }
-            //Tasa iät
+            //Tasa iät 
             if (ika == 20 || ika == 30 || ika == 40 || ika == 50 || ika == 60 || ika == 70 || ika == 80 || ika == 90 || ika == 100 ) {
 
             System.out.println("Onnea tasavuosikymmenistä");
@@ -35,8 +35,8 @@ public class App {
 
             System.out.println("Olet juuri tullut täysi-ikäiseksi ja saat ajaa autoa");
             }
-
-            if (ika > 0 && ika < 18) { 
+            //Ikä 0-18
+            if (ika > 0 && ika < 18) {  
                 System.out.println("Olet alaikäinen");
                 if (ika >= 15) {
 
